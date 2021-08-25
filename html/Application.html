@@ -1,0 +1,43 @@
+<html style="background-color: lightslategray;">
+<head>
+    <h1>Application Form</h1> 
+    <script>
+       function fun()
+        {
+            open("submit.html");
+        }
+    </script>
+</head>
+    <body>
+        <form action="0" >
+            <b>Enter your mail id:</b> <br>
+            <input type="text" name="Email"> <br> 
+            <b>password:</b>  <br>
+            <input type="password" name="password" > <br/>
+        
+            <h4>Select Gender <br>
+            <input type="radio" name="gender" id="male">Male
+            <input type="radio" name="gender" id="female">Female
+            <input type="radio" name="gender" id="other">Other </h4>
+            
+            <b> Programming languages known </b> <br>
+            <input type="checkbox" name="Programming languages known" id="C">C
+            <input type="checkbox" name="Programming languages known" id="C++">C++
+            <input type="checkbox" name="Programming languages known" id="Java">Java
+            <input type="checkbox" name="Programming languages known" id="Python">Python
+            <br> <br>
+            
+            <b>Select your slot time:</b> <br>
+            <select name="Slot" >
+                <option value="9:00 AM">9:00 AM</option>
+                <option value="12:00 PM">12:00 PM</option>
+                <option value="3:00 PM">3:00 PM</option>
+                <option value="6:00 PM">6:00 PM</option>
+            </select>  <br> <br>
+
+            <input type="submit" value="submit">
+            <button onclick="fun()">SUBMIT</button>
+            
+        </form> 
+    </body>
+</html>
